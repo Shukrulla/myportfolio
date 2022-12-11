@@ -263,7 +263,7 @@ img {
 
 .home__blob{
     width:200px;
-    fill: var(--first-color);
+    fill: hsl(hue, saturation, lightness);
 }
 
 .home__blob-img{
@@ -317,8 +317,13 @@ img {
     font-size: 1.25rem;
 }
 
-
     /* <!-- ================ BUTTONS ====================--> */
+.button {
+    display: inline-block;
+    background-color:var(--first-color);
+    color: #fff;
+}
+    
     /* <!-- ================ ABOUT ====================--> */
     /* <!-- ================ SKILLS  ==================--> */
     /* <!-- ================ QUALIFICATION ============--> */
