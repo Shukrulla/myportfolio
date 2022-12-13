@@ -562,15 +562,19 @@ img {
 } 
 
 .qualification [data-content]{
-    display: none;
+    display: none;    
 }
 
 .qualification__active[data-content]{
-    display: block;
-    
+    display: block; 
+}
+
+.qualification__button.qualification__active{
+    color: var(--first-color);
+    transition: all 0.2s;
 }
 
 
     /* <!-- ================ SERVICES =================--> */
     /* <!-- ================ FOOTER ===================--> */
-    /* <!-- ================ PORTFOLIO ================ --> */
+   /* <!-- ================ PORTFOLIO ================ --> */
