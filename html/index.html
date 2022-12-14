@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Portfolio Website</title>
     <!-- Link CSS -->
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -604,18 +605,207 @@
             </div>
         </section>
         <!-- ================ PORTFOLIO =============== -->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent work</span> 
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- ================ PORTFOLIO 1 =============== -->  
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/img/portfolio1.jpg" alt="" class="portfolio__img">
 
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Modern Website</h3>
+                            <p class="portfolio__description">Website adaptable to all devices,with ui components
+                                and animated interactions
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
 
-        <!-- ================FOOTER ====================-->
+                    <!-- ================ PORTFOLIO 2 =============== -->  
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/img/portfolio2.jpg" alt="" class="portfolio__img">
 
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Brand Design</h3>
+                            <p class="portfolio__description">Website adabtable to all devices,with ui components
+                                and animated interactions
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
 
+                    <!-- ================ PORTFOLIO 3 =============== -->  
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Online Store</h3>
+                            <p class="portfolio__description">Website adaptable to all devices,with ui components
+                                and animated interactions
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>                    
+                </div>
+
+                <!-- Add Arrows -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!-- ================ PROJECT IN MIND =============== -->
+        <section class="project section">
+            <div class="project__bg">
+                <div class="project__container container grid">
+                    <div class="project__data">
+                        <h2 class="project__title">You have a new project</h2>
+                        <p class="project__description">Contact me now and get a 30% discount 
+                            on your new project.</p>
+                        <a href="#contact" class="button button--flex button--white">
+                            Contact me
+                            <i class="uil uil-message project__icon button__icon"></i>
+                        </a>
+                    </div>
+
+                    <img src="/assets/img/project.png" alt="" class="project__img">
+                </div>
+            </div>
+        </section>
+        <!-- ================ TESTIMONIAL =============== -->
+        <section class="testimonial section">
+            <h2 class="section__title">Testimonial</h2>
+            <span class="section__subtitle">My client saying</span>
+
+            <div class="testimonial__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- ================ TESTIMONIAL 1 =============== -->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="/assets/img/testimonial1.jpg" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Sara Smith</h3>
+                                    <span class="testimonial__client">Client</span> 
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="uil uil-star  testimonial__icon-star"></i>
+                                <i class="uil uil-star  testimonial__icon-star"></i>
+                                <i class="uil uil-star  testimonial__icon-star"></i>
+                                <i class="uil uil-star  testimonial__icon-star"></i>
+                                <i class="uil uil-star  testimonial__icon-star"></i>
+                            </div>
+                        </div>
+
+                        <p class="testimonial__description">I get a good impression,I carry out my project with all the
+                            possible quality and attention and support 24 hours a day
+                        </p>
+                    </div>
+
+                    <!-- ================ TESTIMONIAL 2 =============== -->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="/assets/img/testimonial2.jpg" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Matt Robinson</h3>
+                                    <span class="testimonial__client">Client</span> 
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="uil uil-star  testimonial__icon-star"></i>
+                                <i class="uil uil-star  testimonial__icon-star"></i>
+                                <i class="uil uil-star  testimonial__icon-star"></i>
+                                <i class="uil uil-star  testimonial__icon-star"></i>
+                                <i class="uil uil-star  testimonial__icon-star"></i>
+                            </div>
+                        </div>
+
+                        <p class="testimonial__description">I get a good impression,I carry out my project with all the
+                            possible quality and attention and support 24 hours a day
+                        </p>
+                    </div>
+
+                    <!-- ================ TESTIMONIAL 3 =============== -->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="/assets/img/testimonial3.jpg" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Raul Harris</h3>
+                                    <span class="testimonial__client">Client</span> 
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="uil uil-star  testimonial__icon-star"></i>
+                                <i class="uil uil-star  testimonial__icon-star"></i>
+                                <i class="uil uil-star  testimonial__icon-star"></i>
+                                <i class="uil uil-star  testimonial__icon-star"></i>
+                                <i class="uil uil-star  testimonial__icon-star"></i>
+                            </div>
+                        </div>
+
+                        <p class="testimonial__description">I get a good impression,I carry out my project with all the
+                            possible quality and attention and support 24 hours a day
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Add Pagination  -->
+                <div class="swiper-pagination swiper-pagination-testimonial"></div>
+            </div>
+        </section>
+        <!-- ================ CONTACT ME =============== -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
+
+                    <div>
+                        <h3 class="contact__title">Call Me</h3>
+                        <span class="contact__subtitle">729-288-158</span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-
+    
+    <!-- ================FOOTER ====================-->
+    <!-- ================ SCROLL TOP =============== -->
     <!--================ SWIPER JS =================-->
 
 
     <!-- ===========JAVASCRIPT ========-->
-    <script src="/app.js">JS</script>
+    <script src="/js/app.js">JS</script>
+    <script src="/js/swiper-bundle.min.js"></script>
 </body>
 
 </html>
