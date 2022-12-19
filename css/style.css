@@ -1193,66 +1193,66 @@ For medium devices */ @media screen and (max-width:568px) {
   .services__content {
     padding: 6rem 0 2rem 2.5rem;
   }
-  .services_modal-content{
+  .services_modal-content {
     width: 450px;
   }
-  .project{
+  .project {
     text-align: initial;
   }
-  .project__bg{
+  .project__bg {
     background: none;
   }
-  .project__container{
+  .project__container {
     background-color: var(--first-color-second);
-    border-radius:1rem;
-    padding:3rem 2.5rem 0;
+    border-radius: 1rem;
+    padding: 3rem 2.5rem 0;
     grid-template-columns: 1fr max-content;
-    column-gap:3rem;
+    column-gap: 3rem;
   }
-  .project__data{
-    padding-top: .8rem;
+  .project__data {
+    padding-top: 0.8rem;
   }
 
-  .footer__container{
-    grid-template-columns:repeat(3, 1fr);
+  .footer__container {
+    grid-template-columns: repeat(3, 1fr);
   }
-  .footer__bg{
+  .footer__bg {
     padding: 3rem 0 3.5rem;
   }
-  .footer__links{
+  .footer__links {
     flex-direction: row;
     column-gap: 2rem;
   }
-  .footer__social{
-    justify-self:flex-end;
+  .footer__social {
+    justify-self: flex-end;
   }
-  .footer__copy{
-    margin-top:4.5rem;
+  .footer__copy {
+    margin-top: 4.5rem;
   }
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
   .header,
   .main,
-  .footer__container{
-    padding:0;
+  .footer__container {
+    padding: 0;
   }
 
-  .home__blob{
+  .home__blob {
     width: 320px;
   }
-  .home__social{
-    transform:translateX(-6rem);
+  .home__social {
+    transform: translateX(-6rem);
   }
-  
-  .services__container{
+
+  .services__container {
     grid-template-columns: repeat(3, 238px);
   }
 
-  .contact__form{
+  .contact__form {
     width: 460px;
   }
-  .contact__inputs{
-    grid-template-columns:repeat(2, 1fr);
+  .contact__inputs {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
